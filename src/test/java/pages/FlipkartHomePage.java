@@ -66,7 +66,7 @@ public class FlipkartHomePage extends BasePage
 		
 		waitVisibilityofElement(driver, searchbartextfield);
 		javascriptHighlightElement(driver, searchbartextfield);
-		searchbartextfield.sendKeys("laptop");
+		searchbartextfield.sendKeys("acer laptop");
 		enter(searchbartextfield, driver);
 		
 		waitVisibilityofElement(driver, acerlaptop);
